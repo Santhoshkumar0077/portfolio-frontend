@@ -1,6 +1,6 @@
 import React from 'react';
-
-    const App = () => {
+import msk from "../public/msk.jpg"
+const App = () => {
     return (
         <div>
             {/* Navigation Bar */}
@@ -46,7 +46,7 @@ import React from 'react';
                             </p>
                         </div>
                         <div className="col-md-6">
-                            <img src="../public/msk.jpg" alt="My Picture" style={{width:"200px"}}className="img-fluid rounded-circle" />
+                            <img src={msk} alt="My Picture" style={{width:"200px"}}className="img-fluid rounded-circle" />
                         </div>
                     </div>
                 </div>
