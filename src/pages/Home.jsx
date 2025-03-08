@@ -1,5 +1,11 @@
 import React from 'react';
 import msk from "../public/msk.jpg"
+import billing from "../public/billing.jpg"
+import chat from "../public/chatapp.png"
+import eCommerce from "../public/e-commerce.jpg"
+import pharma from '../public/pharma.jpg'
+import hr from "../public/human resouce.jpg"
+import social from "../public/socialmediaapp.jpg"
 const App = () => {
     return (
         <div>
@@ -95,7 +101,7 @@ const App = () => {
                         {/* Project 1 - Real-Time Chat App */}
                         <div className="col-md-4">
                             <div className="card">
-                                <img src="../public/chatapp/png" className="card-img-top" alt="Real-Time Chat App" />
+                                <img src={chat}className="card-img-top" alt="Real-Time Chat App" />
                                 <div className="card-body">
                                     <h5 className="card-title">Real-Time Chat Application</h5>
                                     <p className="card-text">A dynamic chat application supporting real-time messaging with user authentication.</p>
@@ -107,7 +113,7 @@ const App = () => {
                         {/* Project 2 - E-Commerce Website */}
                         <div className="col-md-4">
                             <div className="card">
-                                <img src="../public/e-commerce.jpg" className="card-img-top" alt="E-Commerce Website" />
+                                <img src={ eCommerce} className="card-img-top" alt="E-Commerce Website" />
                                 <div className="card-body">
                                     <h5 className="card-title">E-Commerce Website</h5>
                                     <p className="card-text">E-commerce platform with an intuitive UI and seamless online shopping.</p>
@@ -119,7 +125,7 @@ const App = () => {
                         {/* Project 3 - Social Media Platform */}
                         <div className="col-md-4">
                             <div className="card">
-                                <img src="../public/socialmediaapp.jpg" className="card-img-top" alt="Social Media Platform" />
+                                <img src={social} className="card-img-top" alt="Social Media Platform" />
                                 <div className="card-body">
                                     <h5 className="card-title">Social Media Platform</h5>
                                     <p className="card-text">A complete social media platform allowing users to create profiles, share posts.</p>
@@ -131,7 +137,7 @@ const App = () => {
                         {/* Project 4 - HRMS */}
                         <div className="col-md-4">
                             <div className="card">
-                                <img src="../public/human resouce.jpg" className="card-img-top" alt="HRMS" />
+                                <img src={hr} className="card-img-top" alt="HRMS" />
                                 <div className="card-body">
                                     <h5 className="card-title">Human Resource Management System</h5>
                                     <p className="card-text">A complete HRMS solution that automates key HR processes, from employee data management to payroll, improving HR efficiency.</p>
@@ -143,7 +149,7 @@ const App = () => {
                         {/* Project 5 - Pharmacy Management System */}
                         <div className="col-md-4">
                             <div className="card">
-                                <img src="../public/pharma.jpg" className="card-img-top" alt="Pharmacy Management System" />
+                                <img src={pharma} className="card-img-top" alt="Pharmacy Management System" />
                                 <div className="card-body">
                                     <h5 className="card-title">Pharmacy Management System</h5>
                                     <p className="card-text">A pharmacy management system for efficient inventory and sales management, integrating patient prescriptions.</p>
@@ -155,7 +161,7 @@ const App = () => {
                         {/* Project 6 - Billing & Inventory System */}
                         <div className="col-md-4">
                             <div className="card">
-                                <img src="../public/billing.jpg" className="card-img-top" alt="Billing & Inventory System" />
+                                <img src={billing} className="card-img-top" alt="Billing & Inventory System" />
                                 <div className="card-body">
                                     <h5 className="card-title">Billing & Inventory System</h5>
                                     <p className="card-text">A solution for managing inventory and sales transactions, providing businesses with real-time insights into stock levels and transactions.</p>
