@@ -105,7 +105,7 @@ const App = () => {
                                 <div className="card-body">
                                     <h5 className="card-title">Real-Time Chat Application</h5>
                                     <p className="card-text">A dynamic chat application supporting real-time messaging with user authentication.</p>
-                                    <a href="https://real-time-message-app-kbej.onrender.com/" className="btn btn-primary">View Project</a>
+                                    <a href="https://real-time-message-app-kbej.onrender.com/" target='_blank' className="btn btn-primary">View Project</a>
                                 </div>
                             </div>
                         </div>
@@ -117,7 +117,7 @@ const App = () => {
                                 <div className="card-body">
                                     <h5 className="card-title">E-Commerce Website</h5>
                                     <p className="card-text">E-commerce platform with an intuitive UI and seamless online shopping.</p>
-                                    <a href="https://e-commerce-eight-omega-98.vercel.app/" className="btn btn-primary">View Project</a>
+                                    <a href="https://e-commerce-eight-omega-98.vercel.app/" target="_blank" className="btn btn-primary">View Project</a>
                                 </div>
                             </div>
                         </div>
