@@ -52,7 +52,7 @@ const App = () => {
                             </p>
                         </div>
                         <div className="col-md-6">
-                            <img src={msk} alt="My Picture" style={{width:"200px"}}className="img-fluid rounded-circle" />
+                            <img src={msk} alt="My Picture" style={{ width: "200px" }} className="img-fluid rounded-circle" />
                         </div>
                     </div>
                 </div>
@@ -101,11 +101,11 @@ const App = () => {
                         {/* Project 1 - Real-Time Chat App */}
                         <div className="col-md-4">
                             <div className="card">
-                                <img src={chat}className="card-img-top" alt="Real-Time Chat App" />
+                                <img src={chat} className="card-img-top" alt="Real-Time Chat App" />
                                 <div className="card-body">
                                     <h5 className="card-title">Real-Time Chat Application</h5>
                                     <p className="card-text">A dynamic chat application supporting real-time messaging with user authentication.</p>
-                                    <a href="#" className="btn btn-primary">View Project</a>
+                                    <a href="https://real-time-message-app-kbej.onrender.com/" className="btn btn-primary">View Project</a>
                                 </div>
                             </div>
                         </div>
@@ -113,62 +113,15 @@ const App = () => {
                         {/* Project 2 - E-Commerce Website */}
                         <div className="col-md-4">
                             <div className="card">
-                                <img src={ eCommerce} className="card-img-top" alt="E-Commerce Website" />
+                                <img src={eCommerce} className="card-img-top" alt="E-Commerce Website" />
                                 <div className="card-body">
                                     <h5 className="card-title">E-Commerce Website</h5>
                                     <p className="card-text">E-commerce platform with an intuitive UI and seamless online shopping.</p>
-                                    <a href="#" className="btn btn-primary">View Project</a>
+                                    <a href="https://e-commerce-eight-omega-98.vercel.app/" className="btn btn-primary">View Project</a>
                                 </div>
                             </div>
                         </div>
 
-                        {/* Project 3 - Social Media Platform */}
-                        <div className="col-md-4">
-                            <div className="card">
-                                <img src={social} className="card-img-top" alt="Social Media Platform" />
-                                <div className="card-body">
-                                    <h5 className="card-title">Social Media Platform</h5>
-                                    <p className="card-text">A complete social media platform allowing users to create profiles, share posts.</p>
-                                    <a href="#" className="btn btn-primary">View Project</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Project 4 - HRMS */}
-                        <div className="col-md-4">
-                            <div className="card">
-                                <img src={hr} className="card-img-top" alt="HRMS" />
-                                <div className="card-body">
-                                    <h5 className="card-title">Human Resource Management System</h5>
-                                    <p className="card-text">A complete HRMS solution that automates key HR processes, from employee data management to payroll, improving HR efficiency.</p>
-                                    <a href="#" className="btn btn-primary">View Project</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Project 5 - Pharmacy Management System */}
-                        <div className="col-md-4">
-                            <div className="card">
-                                <img src={pharma} className="card-img-top" alt="Pharmacy Management System" />
-                                <div className="card-body">
-                                    <h5 className="card-title">Pharmacy Management System</h5>
-                                    <p className="card-text">A pharmacy management system for efficient inventory and sales management, integrating patient prescriptions.</p>
-                                    <a href="#" className="btn btn-primary">View Project</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Project 6 - Billing & Inventory System */}
-                        <div className="col-md-4">
-                            <div className="card">
-                                <img src={billing} className="card-img-top" alt="Billing & Inventory System" />
-                                <div className="card-body">
-                                    <h5 className="card-title">Billing & Inventory System</h5>
-                                    <p className="card-text">A solution for managing inventory and sales transactions, providing businesses with real-time insights into stock levels and transactions.</p>
-                                    <a href="#" className="btn btn-primary">View Project</a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
